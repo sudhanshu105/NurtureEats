@@ -1,14 +1,24 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import { useEffect, useMemo, useState } from "react";
+import { Toaster } from "react-hot-toast";
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Components/Home/Home';
 
 function App() {
   
 
   return (
     <>
-      <div>
-        <h1>Hello</h1>
-      </div>
+      <Router>
+      <Routes>
+        <Route exact  path="/" element={<><Navbar/><Home/></>} />
+      </Routes>
+    </Router>
     </>
   )
 }
