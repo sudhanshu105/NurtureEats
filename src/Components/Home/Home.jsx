@@ -13,7 +13,7 @@ function Home() {
         
     </div>
     <div className={css.tag}>
-    <h2>NurtureEats</h2><br></br>
+    <h2>NurtureEats</h2>
     <h4>
       #FOODforHEALTH
     </h4>
