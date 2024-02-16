@@ -22,7 +22,6 @@ function Home() {
     </h4>
     </div>
 
-<<<<<<< Updated upstream
     <div className={css.health}>
       <img className={css.tiles} src={Health} alt="" />
       <img className={css.tiles} src={Health} alt="" />
@@ -34,12 +33,8 @@ function Home() {
         <FlippableTile image={Health} /> */}
       
     </div>
-=======
-    {/* <div className={css.Barley}>
-      <img src={Barl} alt="" />
-    </div> */}
->>>>>>> Stashed changes
-    </>
+</>
+
   )
 }
 
