@@ -13,6 +13,10 @@ body{
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    background: transparent;
+    backdrop-filter: blur(10px);
 }
 
 
@@ -51,11 +55,11 @@ body{
 .li{
     text-decoration: none;
     text-decoration-style: none;
-    color: white;
+    color: black;
 }
 
 .li:hover{
-    color: rgb(19, 255, 231);
+    color: rgb(1, 101, 91);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* text-decoration: none; */
 }
