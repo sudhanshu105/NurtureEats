@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../../assets/Images/logo.png';
 import { Link } from 'react-router-dom';
 import css from './Home.module.css';
+import Barl from '../../assets/Images/barley.png';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         </div>
         
     </div>
+    
     <div className={css.tag}>
     <h2>NurtureEats</h2>
     <h4>
@@ -19,7 +21,9 @@ function Home() {
     </h4>
     </div>
 
-    
+    <div className={css.Barley}>
+      <img src={Barl} alt="" />
+    </div>
     </>
   )
 }

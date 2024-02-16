@@ -20,7 +20,8 @@
 }
 
 .logo_image img:hover{
-    filter: drop-shadow(0 4px 8px rgba(92, 153, 112, 0.406));
+    /* filter: drop-shadow(0 4px 8px rgba(92, 153, 112, 0.406)); */
+    filter: drop-shadow(0 4px 8px rgba(0, 255, 229, 0.406));
 }
 
 .tag{
@@ -45,4 +46,12 @@
 .tag h4{
     margin-top: 0%;
     /* padding-top: 0%; */
+}
+.Barley{
+    height: 300px;
+    width: 300px;
+}
+.Barley img{
+    height: 100%;
+    width: 100%;
 }
