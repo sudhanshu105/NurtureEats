@@ -8,9 +8,18 @@ function Home() {
     <>
     <div className={css.logo_image}>
         <div className={css.image}>
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="" /><br></br>
         </div>
+        
     </div>
+    <div className={css.tag}>
+    <h2>NurtureEats</h2><br></br>
+    <h4>
+      #FOODforHEALTH
+    </h4>
+    </div>
+
+    
     </>
   )
 }

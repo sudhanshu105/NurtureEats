@@ -29,6 +29,10 @@ body{
     height: 100%;
 }
 
+.first_nav img:hover{
+    filter: drop-shadow(0 4px 8px rgba(70, 173, 104, 0.41));
+}
+
 .second_nav{
     color: white;
     width: 30%;
@@ -41,9 +45,25 @@ body{
     align-items: center;
     list-style: none;
     justify-content: space-between;
+
 }
 
 .li{
     text-decoration: none;
+    text-decoration-style: none;
     color: white;
+}
+
+.li:hover{
+    color: rgb(19, 255, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-decoration: none; */
+}
+
+.li:visited {
+    text-decoration: none; 
+}
+
+.mylink{
+    text-decoration: none;
 }
