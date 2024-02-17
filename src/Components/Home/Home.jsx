@@ -23,10 +23,10 @@ function Home() {
     </div>
 
     <div className={css.health}>
-      <img className={css.tiles} src={Health} alt="" />
-      <img className={css.tiles} src={Health} alt="" />
-      <img className={css.tiles} src={Health} alt="" />
-      <img className={css.tiles} src={Health} alt="" />
+      <img className={css.tiles} src={Logo} alt="" />
+      <img className={css.tiles} src={Logo} alt="" />
+      <img className={css.tiles} src={Logo} alt="" />
+      <img className={css.tiles} src={Logo} alt="" />
 
         {/* <FlippableTile image={Health} />
         <FlippableTile image={Health} />
