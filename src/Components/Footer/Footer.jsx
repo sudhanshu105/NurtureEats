@@ -18,12 +18,12 @@ function Footer() {
             <h2>ENQUIRY</h2>
             <ul className={css.enquiry_ul}>
                 <li className={css.enquiry_li}>
-                    <img src={Call} alt="" />
-                    <h3>+91 9650169402</h3>
+                    <img className={css.phone} src={Call} alt="" />
+                    <h3 >+91 9650169402</h3>
                 </li>
                 <li className={css.enquiry_li}>
                     <img src={Message} alt="" />
-                    <h3>ankur.keshari@nurtureeats.in</h3>
+                    <h3 className={css.emailbox}>ankur.keshari@nurtureeats.in</h3>
                 </li>
             </ul>
         </div>
