@@ -1,7 +1,55 @@
-import React from 'react'
+import React, { useState } from 'react'
 import css from './Contact.module.css';
+import axios from 'axios';
+import { useNavigate } from "react-router-dom";
+
 
 function Contact() {
+
+  const navigate = useNavigate();
+  const [user, setUserr] = useState({
+    name : "",
+    email: "",
+    mobile_number : "",
+    city : "",
+    feedback : ""
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUserr({
+      ...user,
+      [name]: value,
+    });
+  };
+  
+  
+  const handle_contact_us = async (e) => {
+    try{
+    e.preventDefault();
+  
+    const res = await axios.post(
+      `http://localhost:8080/api/contact_us`,
+      {
+        user: user,
+      },
+      {
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+        },
+      }
+    );
+
+    console.log("Responsee:", res.data);
+    }
+    catch(err){
+      console.log("Error in submiting contact us : " , err);
+    }
+  };
+
+
   return (
       <>
         <div className={css.contactme}>
@@ -35,18 +83,18 @@ function Contact() {
             <div className={css.contactsec}>
             <h1>Contact US</h1>
             <p>Give us your valuable Suggestions or Feedback using the form below:</p>
-            <form>
+            <form onSubmit={handle_contact_us}>
                 <label htmlFor="name">Name:</label>
-                <input type="text" id="name" name="name" required />
+                <input type="text" id="name" name="name" required  value={user.name}onChange={handleChange}/>
                 <label htmlFor="email">Email:</label>
-                <input type="email" id="email" name="email" required />
+                <input type="email" id="email" name="email" required onChange={handleChange}/>
                 <label htmlFor="mobileNumber">Mobile Number:</label>
-                <input type="tel" id="mobileNumber" name="mobileNumber" required />
+                <input type="tel" id="mobileNumber" name="mobileNumber" required onChange={handleChange}/>
                 <label htmlFor="city">City:</label>
-                <input type="text" id="city" name="city" required />
+                <input type="text" id="city" name="city" required onChange={handleChange}/>
                 
                 <label htmlFor="Feedback">Feedback or Suggestion: </label>
-                <textarea id="feedback" name="feedback" required />
+                <textarea id="feedback" name="feedback" onChange={handleChange}/>
 
                 <button type="submit">SUBMIT</button>
             </form>

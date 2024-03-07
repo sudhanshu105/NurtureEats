@@ -10,7 +10,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import WhyBarley from './Components/WhyBarley/WhyBarley';
 import Footer from './Components/Footer/Footer';
-import Contact from './Components/ContactUs/contact';
+import Contact from './Components/ContactUs/Contact';
 import About from './Components/About/About';
 import Quality from './Components/Quality/Quality';
 
