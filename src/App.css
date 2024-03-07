@@ -1,5 +1,10 @@
+
 body{
-  background-color: rgb(224, 224, 224);
+  /* background-image: url("../src/assets/Images/back2.jpg");
+  background-size: cover; 
+  background-position: center;  */
+  background-color: aliceblue;
+  /* color: rgb(0, 0, 0); */
 }
 
 h1{

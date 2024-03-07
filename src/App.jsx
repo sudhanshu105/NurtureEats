@@ -10,6 +10,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import WhyBarley from './Components/WhyBarley/WhyBarley';
 import Footer from './Components/Footer/Footer';
+import Contact from './Components/ContactUs/contact';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <Router>
       <Routes>
         <Route exact  path="/" element={<><Navbar/><Home/><WhyBarley/><Footer/></>} />
+        <Route exact  path="/contact" element={<><Navbar/><Contact/><Footer/></>} />
       </Routes>
     </Router>
     </>
