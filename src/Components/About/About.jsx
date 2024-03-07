@@ -3,8 +3,10 @@ import css from './About.module.css';
 
 function About() {
   return (
-    <div>
-      
+    <div className={css.overallbox}>
+      <div className={css.content}>
+      <h2> TIMELINE</h2>
+      </div>
     </div>
   )
 }

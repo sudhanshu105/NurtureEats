@@ -11,6 +11,8 @@ import Home from './Components/Home/Home';
 import WhyBarley from './Components/WhyBarley/WhyBarley';
 import Footer from './Components/Footer/Footer';
 import Contact from './Components/ContactUs/contact';
+import About from './Components/About/About';
+import Quality from './Components/Quality/Quality';
 
 function App() {
   
@@ -21,6 +23,8 @@ function App() {
       <Routes>
         <Route exact  path="/" element={<><Navbar/><Home/><WhyBarley/><Footer/></>} />
         <Route exact  path="/contact" element={<><Navbar/><Contact/><Footer/></>} />
+        <Route exact  path="/about" element={<><Navbar/><About/><Footer/></>} />
+        <Route exact  path="/quality" element={<><Navbar/><Quality/><Footer/></>} />
       </Routes>
     </Router>
     </>

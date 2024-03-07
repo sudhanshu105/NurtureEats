@@ -159,7 +159,7 @@ body{
 }
 
 .healthhead{
-    filter: drop-shadow(10px 10px 10px black);
+    filter: drop-shadow(5px 5px 5px black);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,35 +264,59 @@ body{
 .heart img{
     height: 150px;
     width: 150px;
-    filter: drop-shadow(2px 1px 8px black);
 }
 
 .diabetes img{
     height: 150px;
     width: 150px;
-    filter: drop-shadow(2px 1px 8px black);
 }
 
 .weight img{
     height: 150px;
     width: 150px;
-    filter: drop-shadow(2px 1px 8px black);
 }
 
 .digestion img{
     height: 150px;
     width: 150px;
-    filter: drop-shadow(2px 1px 8px black);
 }
 
 .vitamins img{
     height: 150px;
     width: 150px;
-    filter: drop-shadow(2px 1px 8px black);
 }
 
 .antioxi img{
     height: 150px;
     width: 150px;
-    filter: drop-shadow(2px 1px 8px black);
+}
+
+.heart img:hover{
+    border-radius: 5px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.diabetes img:hover{
+    border-radius: 5px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.weight img:hover{
+    border-radius: 5px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.digestion img:hover{
+    border-radius: 5px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.vitamins img:hover{
+    border-radius: 5px;
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.antioxi img:hover{
+    border-radius: 5px;
+    filter: drop-shadow(2px 5px 5px black);
 }
