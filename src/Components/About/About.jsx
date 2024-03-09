@@ -5,7 +5,7 @@ function About() {
   return (
     <div className={css.overallbox}>
       <div className={css.content}>
-      <h2> TIMELINE</h2>
+      <h2> Coming Soon</h2>
       </div>
     </div>
   )

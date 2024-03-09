@@ -13,6 +13,8 @@ import Footer from './Components/Footer/Footer';
 import Contact from './Components/ContactUs/Contact';
 import About from './Components/About/About';
 import Quality from './Components/Quality/Quality';
+import Products from './Components/Products/Products';
+import Reviews from './Components/Reviews/Reviews';
 
 function App() {
   
@@ -21,10 +23,11 @@ function App() {
     <>
       <Router>
       <Routes>
-        <Route exact  path="/" element={<><Navbar/><Home/><WhyBarley/><Footer/></>} />
+        <Route exact  path="/" element={<><Navbar/><Home/><WhyBarley/><Reviews/><Footer/></>} />
         <Route exact  path="/contact" element={<><Navbar/><Contact/><Footer/></>} />
-        <Route exact  path="/about" element={<><Navbar/><About/><Footer/></>} />
+        <Route exact  path="/about" element={<><Navbar/><About/><Reviews/><Footer/></>} />
         <Route exact  path="/quality" element={<><Navbar/><Quality/><Footer/></>} />
+        <Route exact  path="/products" element={<><Navbar/><Products/><Footer/></>} />
       </Routes>
     </Router>
     </>

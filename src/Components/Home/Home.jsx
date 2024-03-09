@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../assets/Images/logo.png';
+import Package from '../../assets/Images/package.png';
 import { Link } from 'react-router-dom';
 import css from './Home.module.css';
 import Health from '../../assets/Images/health.png';
@@ -7,7 +8,7 @@ import Health from '../../assets/Images/health.png';
 
 function Home() {
   return (
-    <>
+    <div className={css.outer}>
     <div className={css.logo_image}>
         <div className={css.image}>
             <img src={Logo} alt="" /><br></br>
@@ -22,18 +23,20 @@ function Home() {
     </h4>
     </div>
 
-    <div className={css.health}>
-      <img className={css.tiles} src={Logo} alt="" />
-      <img className={css.tiles} src={Logo} alt="" />
-      <img className={css.tiles} src={Logo} alt="" />
-      <img className={css.tiles} src={Logo} alt="" />
+    <div className={css.headline}>
+      <h3>ELEVATE YOUR WELLNESS WITH US</h3>
+      <p>Embrace a healthier lifestyle with our nutrient-rich barley flour, your path to wellness starts here.</p>
+    </div>
 
-        {/* <FlippableTile image={Health} />
-        <FlippableTile image={Health} />
-        <FlippableTile image={Health} /> */}
+    <div className={css.health}>
+      <img className={css.tiles} src={Package} alt="" />
+      <img className={css.tiles} src={Package} alt="" />
+      <img className={css.tiles} src={Package} alt="" />
+      {/* <img className={css.tiles} src={Package} alt="" /> */}
+
       
     </div>
-</>
+</div>
 
   )
 }

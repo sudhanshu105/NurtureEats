@@ -5,7 +5,7 @@ function Quality() {
   return (
     <div className={css.firstbox}>
         <div className={css.content}>
-            Quality
+            Coming Soon
         </div>
     </div>
   )

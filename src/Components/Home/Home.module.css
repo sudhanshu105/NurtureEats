@@ -1,3 +1,8 @@
+.outer{
+    background-image: url("../../assets/Images/barleybackground.png");
+    background-size: cover;
+}
+
 .logo_image{
     display: flex;
     width: 100%;
@@ -6,6 +11,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 80px;
+    
 }
 
 .image{
@@ -32,8 +38,6 @@
 
 .tag h2{
     margin: 0px 0px;
-    /* color: rgb(0, 0, 0); */
-    /* background-color: #f78089; */
     color: transparent;
     /* background-image: linear-gradient(90deg,#f45461,#1d8666); */
     /* background: linear-gradient(to right, #ff4500, #ff8c00); */
@@ -44,6 +48,19 @@
     -webkit-background-clip: text;
     font-weight: bold;
     font-size: 2.5rem;
+
+    /* text-shadow: 
+    /* 1px 1px 1px #919191, */
+        /* 1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191, */
+    /* 1px 10px 6px rgba(16,16,16,0.4),
+    1px 15px 10px rgba(16,16,16,0.2),
+    1px 20px 35px rgba(16,16,16,0.2),
+    1px 25px 60px rgba(16,16,16,0.4); */ 
+
     /* filter: drop-shadow(0 4px 8px rgb(255, 255, 255)); */
 }
 
@@ -54,26 +71,46 @@
 }
 
 .health{
-    height: 280px;
-    width: 250px;
+    height: fit-content;
+    width: 80%;
     margin-left: 10%;
     margin-top: 4%;
     margin-right: 10%;
-
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
     
 }
 
 .tiles{
-    height: 90%;
-    width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    height: 300px;
+    width: 250px;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-bottom: 5%;
     padding: right 10%;
-    filter: drop-shadow(0 24px 10px rgba(15, 8, 8, 0.716));
-    border: 1px solid black;
+    filter: drop-shadow(3px 24px 10px rgba(15, 8, 8, 0.716));
+    /* border: 1px solid black; */
     border-radius: 10px;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline h3{
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.headline p{
+    font-size: 20px;
 }

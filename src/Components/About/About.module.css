@@ -1,3 +1,7 @@
+body{
+    background-image: url("../../assets/Images/greyback.jpg");
+    background-size:cover;
+}
 .overallbox{
     margin-top: 0px;
     margin: 0 auto;

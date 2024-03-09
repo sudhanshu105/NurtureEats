@@ -1,3 +1,8 @@
+body{
+  background-image: url("../../assets/Images/greyback.jpg");
+  background-size:cover;
+}
+
 .contactme {
     padding: 50px;
     max-width: 800px;
@@ -41,32 +46,63 @@
   }
   
   .contactme .companyinfo {
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     padding: 20px;
     border-radius: 4px;
   }
   
   .contactme .companyinfo h2 {
     margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 10px;
+    color: #000000;
+    text-shadow: 1px 1px 1px #919191,
+        /* 1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191, */
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    /* 1px 13px 100px rgba(0, 0, 0, 0.4); */
   }
   
   .contactme .companyinfo p {
     margin-bottom: 15px;
   }
 
+  iframe{
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+
   .mapandcont{
     display: flex;
     margin-left: 10%;
+    filter: drop-shadow(1px 1px 5px rgb(117, 116, 116));
   }
 
   .contactsec{
     border: 1px solid #ccc;
+    background-color: #efeaea;
+    filter: drop-shadow(5px 3px 5px rgb(148, 148, 148));
     padding: 20px;
     border-radius: 4px;
     margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  
+  .contactsec h1{
+    text-align: center;
   }
 
   .contactsec form {
+    padding-left: 4%;
+    padding-right: 4%;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -93,3 +129,25 @@
     cursor: pointer;
   }
   
+  .successMessage{
+    background-color: #4caf50; 
+    color: #fff; 
+    padding: 15px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    text-align: center;
+  }
+
+  .rule{
+    border: 2px solid black;
+    filter: drop-shadow(5px 5px 5px black);
+  }
+
+  .companyinfo a{
+    text-decoration: none;
+  color: #000000;  
+}
+
+textarea{
+  resize: none;
+}

@@ -1,0 +1,55 @@
+.firstbox{
+    margin-top: 0px;
+    margin: 0 auto;
+}
+
+.content{
+    /* color: brown; */
+    padding-top: 4%;
+}
+
+.health{
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline h3{
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.headline p{
+    font-size: 20px;
+}
+
+.tiles{
+    height: 300px;
+    width: 250px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    padding: right 10%;
+    filter: drop-shadow(3px 24px 10px rgba(15, 8, 8, 0.716));
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
