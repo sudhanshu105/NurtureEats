@@ -54,7 +54,7 @@ function Contact() {
       // Clear success message after a few seconds
       setTimeout(() => {
         setSuccessMessage('');
-      }, 5000); // Adjust the duration as needed
+      }, 4000); // Adjust the duration as needed
 
     }
     catch(err){

@@ -35,8 +35,12 @@
     justify-content: center;
     border: 1px transparent;
     border-radius: 40px;
+    color: aliceblue;
 }
-.slick-next:before,[dir=rtl] .slick-prev:before{content:'→'}
+.slick-next:before,[dir=rtl] .slick-prev:before{
+    content:'→';
+    color: aliceblue;
+}
 .slick-next{right:-25px}
 [dir=rtl] .slick-next{right:auto;left:-25px}
 
@@ -61,7 +65,7 @@
     content:'•';
     text-align:center;
     opacity:.5;
-    color:#000;
+    color:#979797;
 }
 
-.slick-dots li.slick-active button:before{opacity:1;color:#000}
+.slick-dots li.slick-active button:before{opacity:1;color:#ffffff}

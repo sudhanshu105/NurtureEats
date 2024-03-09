@@ -23,7 +23,7 @@ function WhyBarley() {
         </div>
         <div className={css.history_text}>
           <h3>HISTORY OF BARLEY</h3>
-          <p>Barley has played a crucial role inhuman history as one of the earliestdomesticated crops. It served as adietary staple for ancientcivilizations, facilitated the transitionto settled societies, contributed totrade and economy, and heldreligious and cultural significance.Barley's versatility, nutritional value,use in brewing and traditionalmedicine have influenced variousaspects of human life and continueto shape culinary heritageworldwide</p>
+          <p>Barley has played a crucial role in human history as one of the earliest domesticated crops. It served as adietary staple for ancient civilizations, facilitated the transition to settled societies, contributed to trade and economy, and held religious and cultural significance. Barley's versatility, nutritional value, use in brewing and traditional medicine have influenced various aspects of human life and continue to shape culinary heritage worldwide.</p>
         </div>
       </div>
 
