@@ -2,9 +2,14 @@ import React, { useState } from 'react'
 import css from './Contact.module.css';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
-
+import { useLayoutEffect } from 'react';
 
 function Contact() {
+
+  useLayoutEffect(() => {
+    console.log("Scrolling to top");
+    window.scrollTo(0, 0);
+  }, []);
 
   const navigate = useNavigate();
   const [user, setUserr] = useState({
