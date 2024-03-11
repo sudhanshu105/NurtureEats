@@ -1,0 +1,49 @@
+.outer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(84, 93, 90,0.75);
+}
+
+h1{
+    text-align: center;
+}
+
+.internal_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.text{
+    align-items: center;
+    /* text-align: center; */
+    font-size: 30px;
+    max-width: 60%;
+    flex-wrap: wrap;
+    margin-right: 5%;
+}
+
+.text:hover .content {
+    display: block;
+    opacity: 1;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.content{
+    font-size: 25px;
+    color: rgb(84, 81, 81);
+    
+}
+
+.imageContainer img{
+    height: 500px;
+    width: 500px;
+}
