@@ -15,6 +15,7 @@ import About from './Components/About/About';
 import Quality from './Components/Quality/Quality';
 import Products from './Components/Products/Products';
 import Reviews from './Components/Reviews/Reviews';
+import Faq from './Components/Faq/Faq';
 
 function App() {
   
@@ -23,7 +24,7 @@ function App() {
     <>
       <Router>
       <Routes>
-        <Route exact  path="/" element={<><Navbar/><Home/><WhyBarley/><Reviews/><Footer/></>} />
+        <Route exact  path="/" element={<><Navbar/><Home/><WhyBarley/><Faq/><Reviews/><Footer/></>} />
         <Route exact  path="/contact" element={<><Navbar/><Contact/><Footer/></>} />
         <Route exact  path="/about" element={<><Navbar/><About/><Reviews/><Footer/></>} />
         <Route exact  path="/quality" element={<><Navbar/><Quality/><Footer/></>} />
