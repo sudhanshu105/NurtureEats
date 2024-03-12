@@ -3,6 +3,8 @@
     padding: 0;
     /* background-image: url("../../assets/Images/barleybackground.png");
     background-size:cover; */
+    /* background-color: #6BB77B; */
+    background-color: #2d6439
 }
 
 .upper_heading{
@@ -11,9 +13,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
+    padding-top: 10px;
     font-size: 20px;
     font-weight: 900;
+    filter: drop-shadow(4px 4px 4px black);
+    font-weight: bold;
     
 }
 
@@ -59,14 +64,16 @@
     justify-content:center ;
     /* border: 1px solid black; */
     border-radius: 10px;
-    background-color: rgba(203, 206, 209,0.5);
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    /* background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5); */
+    
     
 }
 
 .history_text h3{
     text-align: center;
-    color: rgb(34, 27, 27);
+    color: rgb(255, 193, 93);
     font-size: 2rem;
     margin-top: 0;
 }
@@ -75,7 +82,7 @@
     text-align: center;
     font-family: Inknut Antiqua;
     font-size: 1.5rem;
-    color: rgb(41, 39, 39);
+    color: rgb(210, 204, 204);
 }
 
 .cards{
@@ -137,11 +144,10 @@
 }
 
 .nutriotion h1{
-    color: transparent;
-    background-image: linear-gradient(90deg,#03b260,#c84702);
-    /* background: linear-gradient(to right, #ff4500, #ff8c00); */
-    -webkit-background-clip: text;
-    background-clip: text;
+    color: white;
+    /* background-image: linear-gradient(90deg,#03b260,#c84702); */
+    /* -webkit-background-clip: text;
+    background-clip: text; */
     /* background-clip: text; */
 }
 
@@ -150,18 +156,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 5px 5px 3px rgba(76, 76, 76, 0.1);
+    box-shadow: 0 0 3px 3px rgba(33, 106, 40, 0.431);
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* background-color: #357c45 !important ; */
+    background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+
     
 }
 .tabl{
     
     border-collapse: collapse;
     /* border: 3px solid white; */
-    color: aliceblue;
-    background-color: grey;
+    color: rgb(0, 0, 0);
+    /* background-color: grey; */
     /* filter: drop-shadow(10px 10px 10px black); */
     /* padding: 8px; */
     /* margin-top: 5%; */
+    padding-left: 10%;
+    padding-top: 10%;
 }
 
 .tablesecond{
@@ -169,15 +184,15 @@
     border-collapse: collapse;
     /* border: 3px solid white; */
     font-size: 13px;
-    color: aliceblue;
-    background-color: grey;
-    /* filter: drop-shadow(10px 10px 10px black); */
-    /* padding: 8px; */
-    /* margin-top: 5%; */
+    color: rgb(0, 0, 0);
+    /* background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5); */
+    padding-left: 10%;
+    padding-top: 10%;
 }
 
 .tablecon{
-    border: 1px solid white;
+    border: 3px solid rgb(28, 49, 32);
     padding: 8px;
 }
 
@@ -203,7 +218,8 @@
     width: 25px; 
     padding: 0;
     margin: 0;
-    margin-bottom: 50%;
+    margin-bottom: 35%;
+    padding-right: 5%;
   }
 
 .healthhead{
@@ -211,7 +227,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 30px;
 }

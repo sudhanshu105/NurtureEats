@@ -22,7 +22,7 @@ function App() {
   
 
   return (
-    <>
+    <div className="outerbox">
       <Router>
       <Routes>
         <Route exact  path="/" element={<><Navbar/><Home/><Temp /><WhyBarley/><Faq /><Reviews/><Footer/></>} />
@@ -32,7 +32,7 @@ function App() {
         <Route exact  path="/products" element={<><Navbar/><Products/><Footer/></>} />
       </Routes>
     </Router>
-    </>
+    </div>
   )
 }
 

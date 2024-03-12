@@ -1,6 +1,8 @@
 .outer{
-    background-image: url("../../assets/Images/barleybackground.png");
-    background-size: cover;
+    /* background-image: url("../../assets/Images/barleybackground.png"); */
+    /* background-size: cover; */
+    /* background-color: #6BB77B; */
+    background-color: #2d6439
 }
 
 .logo_image{
@@ -22,11 +24,11 @@
 .logo_image img{
     width: 100%;
     height: 100%;
-    filter: drop-shadow(0 4px 8px rgba(255, 254, 254, 0.39));
+    filter: drop-shadow(0 4px 8px rgba(16, 16, 16, 0.302));
 }
 
 .logo_image img:hover{
-    filter: drop-shadow(0 4px 8px rgba(0, 255, 229, 0.406));
+    filter: drop-shadow(0 4px 8px rgba(171, 185, 184, 0.533));
 }
 
 .tag{
@@ -66,7 +68,7 @@
 
 .tag h4{
     margin-top: 0%;
-    color: rgb(0, 12, 22);
+    color: rgb(252, 153, 22);
     /* padding-top: 0%; */
 }
 
@@ -104,13 +106,19 @@
 }
 
 .headline h3{
-    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    /* background: linear-gradient(45deg, #ff8a00, #a0450c);
     -webkit-background-clip: text;
-    color: transparent;
+    background-clip: text;
+    color: transparent; */
+    color: aliceblue;
     font-size: 3em;
     font-weight: bold;
 }
 
 .headline p{
     font-size: 20px;
+    color: rgb(252, 153, 22);
+    font-weight: bold;
+    text-decoration:solid;
+    margin-top: 0;
 }

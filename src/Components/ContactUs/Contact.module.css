@@ -88,8 +88,11 @@ body{
 
   .contactsec{
     border: 1px solid #ccc;
-    background-color: #efeaea;
-    filter: drop-shadow(5px 3px 5px rgb(148, 148, 148));
+    /* background-color: #efeaea;
+    filter: drop-shadow(5px 3px 5px rgb(148, 148, 148)); */
+    background-color: rgba(203, 206, 209,0.5);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    
     padding: 20px;
     border-radius: 4px;
     margin-left: 10%;
