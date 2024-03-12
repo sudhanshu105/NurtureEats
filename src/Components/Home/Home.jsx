@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/Images/logo.png';
+import Logo from '../../assets/Images/mainimage.jpg';
 import Package from '../../assets/Images/package.png';
 import { Link } from 'react-router-dom';
 import css from './Home.module.css';
@@ -11,7 +11,7 @@ function Home() {
     <div className={css.outer}>
     <div className={css.logo_image}>
         <div className={css.image}>
-            <img src={Logo} alt="" /><br></br>
+            {/* <img src={Logo} alt="" /><br></br> */}
         </div>
         
     </div>
