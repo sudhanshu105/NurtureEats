@@ -4,7 +4,7 @@ import './sliderstyle.css';
 import ReactStars from 'react-stars';
 import css from './Reviews.module.css';
 import imag from '../../assets/Images/avatar.jpg';
-
+import pic from '../../assets/Images/happy.jpg';
 
 
 const reviewsData = [
@@ -41,6 +41,14 @@ const reviewsData = [
     date: '11-04-2023',
     stars: 5,
   },
+  {
+    id: 5,
+    author: 'Aditya',
+    review: `Very healthy and tons of options to use in! Great choice!!`,
+    // image:{imag},
+    date: '11-04-2023',
+    stars: 5,
+  },
 
 ];
 
@@ -53,17 +61,22 @@ const Reviews = () => {
       infinite: true,
       speed: 500,
       slidesToScroll: 1,
+      
     };
   
     if (screenWidth <= 1200) {
       sliderSettings.slidesToShow = 1;
     } else {
-      sliderSettings.slidesToShow = 3;
+      sliderSettings.slidesToShow = 2;
     }
 
   return (
     <div className={css.outer}>
-      <h2>Customer Reviews ( <span className={css.noformat}> {reviewsData.length} </span> )</h2>
+<h2>Customer Reviews ( <span className={css.noformat}> {reviewsData.length} </span> )</h2>
+      <div className={css.content}>
+      
+
+      <div className={css.reviewsection}>
       <Slider 
         {...sliderSettings}>
 
@@ -88,9 +101,20 @@ const Reviews = () => {
          
             <p>{review.review}</p>
             
+            
           </div>
         ))}
       </Slider>
+
+      </div>
+
+      <div className={css.photo}>
+        <div className={css.innerbox}> </div>
+        <div className={css.imagebox}>
+          <img src={pic} alt="picture" />
+        </div>
+      </div>
+      </div>
     </div>
   );
 };

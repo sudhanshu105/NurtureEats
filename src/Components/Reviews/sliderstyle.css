@@ -31,16 +31,26 @@
 
 .slick-prev:before{
     content:'←';
-    align-items: center;
-    justify-content: center;
-    border: 1px transparent;
-    border-radius: 40px;
     color: aliceblue;
+    align-items: center;
+    padding-bottom: 5px;
+    background-color:#0047ba;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.295);
+    border-radius: 50%;
 }
 .slick-next:before,[dir=rtl] .slick-prev:before{
     content:'→';
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    
+    align-items: center;
+    padding-bottom: 5px;
+    background-color:#0047ba;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.295);
+    border-radius: 50%;
 }
+   
 .slick-next{right:-25px}
 [dir=rtl] .slick-next{right:auto;left:-25px}
 
@@ -65,7 +75,7 @@
     content:'•';
     text-align:center;
     opacity:.5;
-    color:#979797;
+    color:#433838;
 }
 
-.slick-dots li.slick-active button:before{opacity:1;color:#ffffff}
+.slick-dots li.slick-active button:before{opacity:1;color:#000000}

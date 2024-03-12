@@ -1,7 +1,7 @@
 .outer{
     display: flex;
     flex-direction: column;
-    background-color: rgba(84, 93, 90,0.75);
+    background-color: rgb(245, 235, 235);
 }
 
 h1{
@@ -10,8 +10,8 @@ h1{
 
 .internal_box{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
@@ -24,6 +24,7 @@ h1{
     max-width: 60%;
     flex-wrap: wrap;
     margin-right: 5%;
+
 }
 
 .text:hover .content {
@@ -32,18 +33,33 @@ h1{
 }
 
 .heading{
-    font-size: 30px;
-    font-weight: bold;
-    
-}
-
-.content{
     font-size: 25px;
-    color: rgb(84, 81, 81);
-    
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .imageContainer img{
     height: 500px;
     width: 500px;
+    
+}
+
+
+.imageContainer{
+    overflow: hidden;
+  max-height: 500px;
+}
+
+.content {
+  font-size: 20px;
+  color: rgb(60, 57, 57);
+  height: 0;
+  overflow: hidden;
+  transition: height 1s ease;
+}
+
+.open {
+  height: auto;
+  visibility: visible;
+  opacity: 1;
 }

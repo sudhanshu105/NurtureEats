@@ -3,9 +3,8 @@
     height: fit-content;
     margin-bottom: 0%;
     bottom: 0;
-    background-color: #172D13;
-    /* border: 1px solid black; */
-    /* background-color: aqua; */
+    background: linear-gradient(110deg, #1d3618 50% , #172D13 50%);
+
 }
 
 .footer{
@@ -74,7 +73,9 @@
 }
 
 .copyright{
-    background-color: black;
+    /* background-color: black; */
+    background: linear-gradient(110deg, #0b0c0d 47%, #000000 40%);
+
     color: aliceblue;
     margin: auto;
     align-items: center;

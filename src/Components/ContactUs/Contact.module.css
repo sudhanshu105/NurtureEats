@@ -1,6 +1,7 @@
-body{
-  background-image: url("../../assets/Images/greyback.jpg");
-  background-size:cover;
+.overall{
+  /* background-color: #4caf50; */
+  background: linear-gradient(110deg, rgb(215, 217, 217) 80%, rgb(145, 149, 147) 50%);
+
 }
 
 .contactme {
@@ -90,9 +91,10 @@ body{
     border: 1px solid #ccc;
     /* background-color: #efeaea;
     filter: drop-shadow(5px 3px 5px rgb(148, 148, 148)); */
-    background-color: rgba(203, 206, 209,0.5);
+    /* background-color: rgba(203, 206, 209,0.5); */
+    background-color: transparent;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
-    
+    backdrop-filter: blur(2px);
     padding: 20px;
     border-radius: 4px;
     margin-left: 10%;

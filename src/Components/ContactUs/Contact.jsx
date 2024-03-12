@@ -69,7 +69,7 @@ function Contact() {
 
 
   return (
-      <>
+      <div className={css.overall}>
         <div className={css.contactme}>
           
         <div className={css.companyinfo}>
@@ -121,7 +121,7 @@ function Contact() {
             </form>
             </div>
             </div>
-        </>
+        </div>
   )
 }
 

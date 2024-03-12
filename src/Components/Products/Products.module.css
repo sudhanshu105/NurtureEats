@@ -1,11 +1,16 @@
 .firstbox{
     margin-top: 0px;
-    margin: 0 auto;
+    margin: 0 auto; 
+    /* background-color: rgb(225, 234, 246); */
+    background: linear-gradient(110deg, #b0bdcb 50%, #757e8e 50%);
+
 }
 
 .content{
     /* color: brown; */
     padding-top: 4%;
+    padding-bottom: 4%;
+    mix-blend-mode:inherit;
 }
 
 .health{
@@ -30,7 +35,7 @@
 }
 
 .headline h3{
-    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    background: linear-gradient(45deg, #502c04, #0b0652);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -42,14 +47,47 @@
     font-size: 20px;
 }
 
-.tiles{
-    height: 300px;
-    width: 250px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 5%;
-    padding: right 10%;
-    filter: drop-shadow(3px 24px 10px rgba(15, 8, 8, 0.716));
-    /* border: 1px solid black; */
-    border-radius: 10px;
+.maincontent{
+    display: flex;
+    column-gap: 70px;
+}
+
+.firstText{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding-top: 5%;
+    font-family: monospace;
+}
+.image{
+    height: 400px;
+    width: 320px;
+    margin-left: 20px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid rgb(189, 186, 186);
+    border-radius: 20px 0 20px 0  ;
+}
+
+.lastText{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding-top: 5%;
+    font-family: monospace;
+}
+
+.heading{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.bottomtext{
+    padding-top: 8%;
 }
