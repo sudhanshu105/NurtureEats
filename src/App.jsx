@@ -19,6 +19,7 @@ import Faq from './Components/Faq/Faq';
 import Temp from './Temp';
 import Choices from './Components/Choices/Choices';
 import Health from './Components/Health/Health';
+import Recipes from './Components/Recipes/Recipes';
 
 function App() {
   
@@ -27,10 +28,10 @@ function App() {
     <div className="outerbox">
       <Router>
       <Routes>
-        <Route exact  path="/" element={<><Navbar/><Temp /><Products /> <Choices /> <Health /> <Faq /><Reviews/><Footer/></>} />
+        <Route exact  path="/" element={<><Navbar/><Temp /><Products /> <Choices /> <Health /> <Recipes /><Faq /><Reviews/><Footer/></>} />
         <Route exact  path="/contact" element={<><Navbar/><Contact/><Footer/></>} />
         <Route exact  path="/about" element={<><Navbar/><About/><Reviews/><Footer/></>} />
-        <Route exact  path="/quality" element={<><Navbar/><Quality/><Footer/></>} />
+        <Route exact  path="/quality" element={<><Navbar/><Quality/><Recipes/><Footer/></>} />
         <Route exact  path="/products" element={<><Navbar/><Products/><Choices /><Footer/></>} />
       </Routes>
     </Router>

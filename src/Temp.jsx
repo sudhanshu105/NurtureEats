@@ -2,6 +2,7 @@ import React from 'react'
 import css from './Temp.module.css';
 import pic from './assets/Images/mainimage.jpg';
 import back from './assets/Images/barleyfields.jpg';
+import logo from './assets/Images/logo.png';
 
 
 function Temp() {
@@ -18,7 +19,13 @@ function Temp() {
               </div>
 
               <div className={css.item2}>
-                  <img src={pic} alt="Your Image" />
+                  <img src={logo} alt="Your Image" />
+                  <div className={css.tag}>
+                      <h2>NurtureEats</h2>
+                      <h4>
+                          #FOODforHEALTH
+                      </h4>
+                  </div>
               </div>
               <div className={css.item3}>
                   <p className={css.normal}><span className={css.homehead}>100+ </span> Happy Homes </p>

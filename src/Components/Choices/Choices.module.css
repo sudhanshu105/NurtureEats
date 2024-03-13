@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     /* background-color: aliceblue; */
-    background: linear-gradient(70deg, #757e8e 50%,  #b0bdcb 50%);
+    background: linear-gradient(68deg, #757e8e 50%,  #b0bdcb 50%);
     /* margin-top: 0 !important; */
 }
 
@@ -14,6 +14,8 @@
 
 .headline h3{
     font-size: 3em;
+    margin: 0;
+    padding: 0;
 
 }
 

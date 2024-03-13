@@ -1,7 +1,5 @@
 .overall{
-  /* background-color: #4caf50; */
-  background: linear-gradient(110deg, rgb(215, 217, 217) 80%, rgb(145, 149, 147) 50%);
-
+  background: radial-gradient(657px 657px at 10% 90% ,#76787c 0,rgb(170, 173, 178)40%),radial-gradient(642px 642px at 82% 115%,#0c1425 0,#071627 25%),linear-gradient(-60deg,#021d44 7.43%,#0d2348 94.82%);
 }
 
 .contactme {
@@ -61,11 +59,6 @@
     font-weight: 10px;
     color: #000000;
     text-shadow: 1px 1px 1px #919191,
-        /* 1px 2px 1px #919191,
-        1px 3px 1px #919191,
-        1px 4px 1px #919191,
-        1px 5px 1px #919191,
-        1px 6px 1px #919191, */
     1px 18px 6px rgba(16,16,16,0.4),
     1px 22px 10px rgba(16,16,16,0.2),
     1px 25px 35px rgba(16,16,16,0.2),
@@ -89,20 +82,19 @@
 
   .contactsec{
     border: 1px solid #ccc;
-    /* background-color: #efeaea;
-    filter: drop-shadow(5px 3px 5px rgb(148, 148, 148)); */
-    /* background-color: rgba(203, 206, 209,0.5); */
-    background-color: transparent;
+    background: radial-gradient(657px 657px at 10% 90%,#0f1726 0,#204228 40%),radial-gradient(642px 642px at 82% 115%,#0c1425 0,#071627 25%),linear-gradient(-60deg,#021d44 7.43%,#0d2348 94.82%);
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px); */
     padding: 20px;
     border-radius: 4px;
     margin-left: 10%;
     margin-bottom: 5%;
+    color: white;
   }
   
   .contactsec h1{
     text-align: center;
+    color: white;
   }
 
   .contactsec form {
